@@ -32,7 +32,6 @@ sources = ['http://arxiv.org/rss/cond-mat',
 # Get matching entries
 keywords = [keyword.lower() for keyword in keywords]
 for source in sources:
-    print source
     for entry in feedparser.parse(source).entries:
         title = entry['title'].lower()
         summary = entry['summary'].lower()
@@ -43,7 +42,7 @@ for source in sources:
             elif 'updated' in entry.keys():
                 item['pubDate'] = entry['updated_parsed']
             else:
-                print 'warning, bad time'
+                print 'Warning: Bad time formatting.'
                 item['pubDate'] = time.localtime()
 
             # Add item to feed
