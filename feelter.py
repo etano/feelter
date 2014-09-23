@@ -12,7 +12,7 @@ feed.feed["author"] = "Ethan W. Brown"
 feed.feed["description"] = "Aggregated articles from various scientific journals based on keywords."
 
 # Set keywords
-keywords = ['Monte Carlo','simulated annealing','Dwave','D-wave','quantum computing','homogeneous electron gas','electron gas','path integral molecular dynamics','warm dense matter','warm-dense matter','electron gas']
+keywords = ['Monte Carlo','simulated annealing','Dwave','D-wave','quantum computing','HEG','electron gas','path integral molecular dynamics','warm dense matter','warm-dense matter']
 
 # Set sources
 sources = ['http://arxiv.org/rss/cond-mat',
