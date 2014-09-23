@@ -29,6 +29,7 @@ sources = ['http://arxiv.org/rss/cond-mat',
            'http://feeds.aps.org/rss/recent/rmp.xml',
            'http://www.sciencemag.org/rss/current.xml']
 
+# Get matching entries
 keywords = [keyword.lower() for keyword in keywords]
 for source in sources:
     print source
@@ -48,5 +49,5 @@ for source in sources:
             # Add item to feed
             feed.items.append(item)
 
-# Save the feed to a file in various formats
+# Save the feed
 feed.format_rss2_file("feelter.rss")
