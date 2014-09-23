@@ -42,10 +42,7 @@ for source in sources:
             elif 'updated' in entry.keys():
                 item['pubDate'] = entry['updated_parsed']
             else:
-                print 'Warning: Bad time formatting.'
                 item['pubDate'] = time.localtime()
-
-            # Add item to feed
             feed.items.append(item)
 
 # Save the feed
