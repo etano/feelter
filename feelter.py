@@ -16,6 +16,10 @@ keywords = ['Monte Carlo','simulated annealing','quantum computing','HEG','elect
 
 # Set sources
 sources = ['http://arxiv.org/rss/cond-mat',
+           'http://arxiv.org/rss/quant-ph',
+           'http://arxiv.org/rss/physics',
+           'http://arxiv.org/rss/math-ph',
+           'http://arxiv.org/rss/stat',
            'http://feeds.aps.org/rss/recent/prx.xml',
            'http://scitation.aip.org/rss/content/aip/journal/jcp/latestarticles?fmt=rss',
            'http://ej.iop.org/rss/0953-8984/latestpapers.xml',
