@@ -12,7 +12,7 @@ feed.feed["author"] = "Ethan W. Brown"
 feed.feed["description"] = "Aggregated articles from various scientific journals based on keywords."
 
 # Set keywords
-keywords = ['Monte Carlo','annealing','quantum computing','HEG','electron gas','path integral molecular dynamics','warm dense matter','quantum algorithm','Edward Farhi','annealer','traveling salesman','NP hard','complexity','quantum adiabatic']
+keywords = ['path integral monte carlo','quantum annealing','quantum algorithm','LSTM','OpenAI','DeepMind','RNN','tensorflow']
 
 # Set sources
 sources = ['http://arxiv.org/rss/cond-mat',
@@ -20,6 +20,8 @@ sources = ['http://arxiv.org/rss/cond-mat',
            'http://arxiv.org/rss/physics',
            'http://arxiv.org/rss/math-ph',
            'http://arxiv.org/rss/stat',
+           'http://arxiv.org/rss/cs',
+           'http://distill.pub/rss.xml',
            'http://feeds.aps.org/rss/recent/prx.xml',
            'http://scitation.aip.org/rss/content/aip/journal/jcp/latestarticles?fmt=rss',
            'http://ej.iop.org/rss/0953-8984/latestpapers.xml',
