@@ -12,7 +12,42 @@ feed.feed["author"] = "Ethan W. Brown"
 feed.feed["description"] = "Aggregated articles from various scientific journals based on keywords."
 
 # Set keywords
-keywords = ['path integral monte carlo','quantum annealing','quantum algorithm','LSTM','OpenAI','DeepMind','RNN','tensorflow']
+topics = ['path integral monte carlo',
+          'quantum annealing',
+          'quantum algorithm',
+          'tensorflow',
+          'keras',
+          'word2vec',
+          'doc2vec',
+          'topic modeling',
+          'named entity recognition',
+          'part of speech tagging']
+people = ['David Ceperley',
+          'Matthias Troyer',
+          'Yann Lecun',
+          'Schmidhuber',
+          'Edward Witten',
+          'Alexei Kitaev',
+          'Geoffrey Hinton',
+          'Andrew Ng',
+          'Hugo Larochelle',
+          'Yoshua Bengio',
+          'Fei-Fei Li',
+          'Shane Legg',
+          'Demis Hassabis',
+          'David Silver',
+          'Richard Sutton',
+          'Gerald Tesauro']
+research_orgs = ['OpenAI',
+                 'DeepMind',
+                 'Facebook AI',
+                 'Salesforce Research',
+                 'Google Brain',
+                 'IBM Research',
+                 'Microsoft Research',
+                 'Baidu Research',
+                 'Nvidia']
+keywords = topics + people + research_orgs
 
 # Set sources
 sources = ['http://arxiv.org/rss/cond-mat',
